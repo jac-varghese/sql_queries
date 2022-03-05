@@ -1,0 +1,1 @@
+SELECT ein AS employerID, initiationfees AS startingfees FROM `bigquery-public-data.irs_990.irs_990_2012` ORDER BY startingfees desc
