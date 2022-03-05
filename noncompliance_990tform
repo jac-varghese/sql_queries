@@ -1,0 +1,1 @@
+SELECT ein AS employerID, filedf990tcd AS filed990t, unrelbusincd FROM `bigquery-public-data.irs_990.irs_990_ez_2013` WHERE filedf990tcd= 'N' AND unrelbusincd= 'Y'
