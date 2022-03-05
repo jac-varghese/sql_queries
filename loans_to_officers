@@ -1,0 +1,5 @@
+SELECT tab1.loanstoofficerscd FROM `bigquery-public-data.irs_990.irs_990_ez_2013` tab1 
+LEFT JOIN `bigquery-public-data.irs_990.irs_990_ez_2014` tab2
+ON tab1.loanstoofficerscd=tab2.loanstoofficerscd 
+GROUP BY tab1.loanstoofficerscd 
+LIMIT 10
