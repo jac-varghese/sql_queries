@@ -1,0 +1,5 @@
+SELECT tab1.ein FROM `bigquery-public-data.irs_990.irs_990_2012` tab1 
+LEFT JOIN `bigquery-public-data.irs_990.irs_990_2013` tab2
+ON tab1.ein=tab2.ein 
+GROUP BY tab1.ein 
+LIMIT 100
