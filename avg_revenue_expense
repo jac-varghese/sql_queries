@@ -1,0 +1,1 @@
+SELECT AVG (totrevnue), AVG (totexpns) FROM `bigquery-public-data.irs_990.irs_990_ez_2012`
